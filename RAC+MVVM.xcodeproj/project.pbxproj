@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37BE37E8D0976B11679226A4 /* Pods_RAC_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55903C3B9C16ADD3E2156D68 /* Pods_RAC_MVVM.framework */; };
+		6080D5D31EA8963E007A0BF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D5D21EA8963E007A0BF8 /* main.m */; };
+		6080D5D61EA8963E007A0BF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D5D51EA8963E007A0BF8 /* AppDelegate.m */; };
+		6080D5DC1EA8963E007A0BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6080D5DA1EA8963E007A0BF8 /* Main.storyboard */; };
+		6080D5DE1EA8963E007A0BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6080D5DD1EA8963E007A0BF8 /* Assets.xcassets */; };
+		6080D5E11EA8963E007A0BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6080D5DF1EA8963E007A0BF8 /* LaunchScreen.storyboard */; };
+		6080D6191EA8A39E007A0BF8 /* BaseNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D5EB1EA8A39E007A0BF8 /* BaseNC.m */; };
+		6080D61A1EA8A39E007A0BF8 /* BaseScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D5ED1EA8A39E007A0BF8 /* BaseScrollViewVC.m */; };
+		6080D61B1EA8A39E007A0BF8 /* BaseTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D5EF1EA8A39E007A0BF8 /* BaseTableViewVC.m */; };
+		6080D61C1EA8A39E007A0BF8 /* BaseTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D5F11EA8A39E007A0BF8 /* BaseTBC.m */; };
+		6080D61D1EA8A39E007A0BF8 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D5F31EA8A39E007A0BF8 /* BaseVC.m */; };
+		6080D61F1EA8A39E007A0BF8 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D5F71EA8A39E007A0BF8 /* BaseModel.m */; };
+		6080D6201EA8A39E007A0BF8 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D6001EA8A39E007A0BF8 /* BaseCollectionViewCell.m */; };
+		6080D6211EA8A39E007A0BF8 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D6021EA8A39E007A0BF8 /* BaseTableViewCell.m */; };
+		6080D6221EA8A39E007A0BF8 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D6041EA8A39E007A0BF8 /* BaseView.m */; };
+		6080D6231EA8A39E007A0BF8 /* BaseScrollViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D6071EA8A39E007A0BF8 /* BaseScrollViewModel.m */; };
+		6080D6241EA8A39E007A0BF8 /* BaseTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D6091EA8A39E007A0BF8 /* BaseTableViewModel.m */; };
+		6080D6251EA8A39E007A0BF8 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D60B1EA8A39E007A0BF8 /* BaseViewModel.m */; };
+		6080D6261EA8A39E007A0BF8 /* SectionMVVM_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D60F1EA8A39E007A0BF8 /* SectionMVVM_VC.m */; };
+		6080D6271EA8A39E007A0BF8 /* SectionMVVM_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D6121EA8A39E007A0BF8 /* SectionMVVM_Model.m */; };
+		6080D6281EA8A39E007A0BF8 /* SectionMVVM_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D6151EA8A39E007A0BF8 /* SectionMVVM_Cell.m */; };
+		6080D6291EA8A39E007A0BF8 /* SectionMVVM_ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D6181EA8A39E007A0BF8 /* SectionMVVM_ViewModel.m */; };
+		6080D6301EA8A678007A0BF8 /* ZZRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D62D1EA8A678007A0BF8 /* ZZRequestManager.m */; };
+		6080D6311EA8A678007A0BF8 /* ZZRequestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6080D62F1EA8A678007A0BF8 /* ZZRequestService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E322FEF30D86700F620377D /* Pods-RAC+MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC+MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC+MVVM/Pods-RAC+MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		55903C3B9C16ADD3E2156D68 /* Pods_RAC_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAC_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6080D5CE1EA8963E007A0BF8 /* RAC+MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC+MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6080D5D21EA8963E007A0BF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6080D5D41EA8963E007A0BF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6080D5D51EA8963E007A0BF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6080D5DB1EA8963E007A0BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6080D5DD1EA8963E007A0BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6080D5E01EA8963E007A0BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6080D5E21EA8963E007A0BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6080D5EA1EA8A39E007A0BF8 /* BaseNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNC.h; sourceTree = "<group>"; };
+		6080D5EB1EA8A39E007A0BF8 /* BaseNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNC.m; sourceTree = "<group>"; };
+		6080D5EC1EA8A39E007A0BF8 /* BaseScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseScrollViewVC.h; sourceTree = "<group>"; };
+		6080D5ED1EA8A39E007A0BF8 /* BaseScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseScrollViewVC.m; sourceTree = "<group>"; };
+		6080D5EE1EA8A39E007A0BF8 /* BaseTableViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewVC.h; sourceTree = "<group>"; };
+		6080D5EF1EA8A39E007A0BF8 /* BaseTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewVC.m; sourceTree = "<group>"; };
+		6080D5F01EA8A39E007A0BF8 /* BaseTBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTBC.h; sourceTree = "<group>"; };
+		6080D5F11EA8A39E007A0BF8 /* BaseTBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTBC.m; sourceTree = "<group>"; };
+		6080D5F21EA8A39E007A0BF8 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		6080D5F31EA8A39E007A0BF8 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		6080D5F51EA8A39E007A0BF8 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		6080D5F71EA8A39E007A0BF8 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		6080D5F91EA8A39E007A0BF8 /* BaseCollectionViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCellProtocol.h; sourceTree = "<group>"; };
+		6080D5FA1EA8A39E007A0BF8 /* BaseTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCellProtocol.h; sourceTree = "<group>"; };
+		6080D5FB1EA8A39E007A0BF8 /* BaseVCProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVCProtocol.h; sourceTree = "<group>"; };
+		6080D5FC1EA8A39E007A0BF8 /* BaseViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModelProtocol.h; sourceTree = "<group>"; };
+		6080D5FD1EA8A39E007A0BF8 /* BaseViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewProtocol.h; sourceTree = "<group>"; };
+		6080D5FF1EA8A39E007A0BF8 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		6080D6001EA8A39E007A0BF8 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		6080D6011EA8A39E007A0BF8 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		6080D6021EA8A39E007A0BF8 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		6080D6031EA8A39E007A0BF8 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		6080D6041EA8A39E007A0BF8 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		6080D6061EA8A39E007A0BF8 /* BaseScrollViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseScrollViewModel.h; sourceTree = "<group>"; };
+		6080D6071EA8A39E007A0BF8 /* BaseScrollViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseScrollViewModel.m; sourceTree = "<group>"; };
+		6080D6081EA8A39E007A0BF8 /* BaseTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewModel.h; sourceTree = "<group>"; };
+		6080D6091EA8A39E007A0BF8 /* BaseTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewModel.m; sourceTree = "<group>"; };
+		6080D60A1EA8A39E007A0BF8 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		6080D60B1EA8A39E007A0BF8 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		6080D60E1EA8A39E007A0BF8 /* SectionMVVM_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionMVVM_VC.h; sourceTree = "<group>"; };
+		6080D60F1EA8A39E007A0BF8 /* SectionMVVM_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionMVVM_VC.m; sourceTree = "<group>"; };
+		6080D6111EA8A39E007A0BF8 /* SectionMVVM_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionMVVM_Model.h; sourceTree = "<group>"; };
+		6080D6121EA8A39E007A0BF8 /* SectionMVVM_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionMVVM_Model.m; sourceTree = "<group>"; };
+		6080D6141EA8A39E007A0BF8 /* SectionMVVM_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionMVVM_Cell.h; sourceTree = "<group>"; };
+		6080D6151EA8A39E007A0BF8 /* SectionMVVM_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionMVVM_Cell.m; sourceTree = "<group>"; };
+		6080D6171EA8A39E007A0BF8 /* SectionMVVM_ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionMVVM_ViewModel.h; sourceTree = "<group>"; };
+		6080D6181EA8A39E007A0BF8 /* SectionMVVM_ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionMVVM_ViewModel.m; sourceTree = "<group>"; };
+		6080D62A1EA8A3C6007A0BF8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6080D62C1EA8A678007A0BF8 /* ZZRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRequestManager.h; sourceTree = "<group>"; };
+		6080D62D1EA8A678007A0BF8 /* ZZRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRequestManager.m; sourceTree = "<group>"; };
+		6080D62E1EA8A678007A0BF8 /* ZZRequestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRequestService.h; sourceTree = "<group>"; };
+		6080D62F1EA8A678007A0BF8 /* ZZRequestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRequestService.m; sourceTree = "<group>"; };
+		FDACC89028C212E7A996AFCA /* Pods-RAC+MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC+MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC+MVVM/Pods-RAC+MVVM.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6080D5CB1EA8963E007A0BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BE37E8D0976B11679226A4 /* Pods_RAC_MVVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6080D5C51EA8963E007A0BF8 = {
+			isa = PBXGroup;
+			children = (
+				6080D5D01EA8963E007A0BF8 /* RAC+MVVM */,
+				6080D5CF1EA8963E007A0BF8 /* Products */,
+				803823B41D4BB1E83D73523C /* Pods */,
+				65990BC4DD1E97DDD3820D6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6080D5CF1EA8963E007A0BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6080D5CE1EA8963E007A0BF8 /* RAC+MVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6080D5D01EA8963E007A0BF8 /* RAC+MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				6080D5E81EA8A39E007A0BF8 /* Base */,
+				6080D60C1EA8A39E007A0BF8 /* Section */,
+				6080D62B1EA8A678007A0BF8 /* ZZNetwork */,
+				6080D5D41EA8963E007A0BF8 /* AppDelegate.h */,
+				6080D5D51EA8963E007A0BF8 /* AppDelegate.m */,
+				6080D62A1EA8A3C6007A0BF8 /* PrefixHeader.pch */,
+				6080D5DA1EA8963E007A0BF8 /* Main.storyboard */,
+				6080D5DD1EA8963E007A0BF8 /* Assets.xcassets */,
+				6080D5DF1EA8963E007A0BF8 /* LaunchScreen.storyboard */,
+				6080D5E21EA8963E007A0BF8 /* Info.plist */,
+				6080D5D11EA8963E007A0BF8 /* Supporting Files */,
+			);
+			path = "RAC+MVVM";
+			sourceTree = "<group>";
+		};
+		6080D5D11EA8963E007A0BF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6080D5D21EA8963E007A0BF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6080D5E81EA8A39E007A0BF8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6080D5E91EA8A39E007A0BF8 /* C */,
+				6080D5F41EA8A39E007A0BF8 /* M */,
+				6080D5F81EA8A39E007A0BF8 /* Protocol */,
+				6080D5FE1EA8A39E007A0BF8 /* V */,
+				6080D6051EA8A39E007A0BF8 /* VM */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6080D5E91EA8A39E007A0BF8 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				6080D5EA1EA8A39E007A0BF8 /* BaseNC.h */,
+				6080D5EB1EA8A39E007A0BF8 /* BaseNC.m */,
+				6080D5F01EA8A39E007A0BF8 /* BaseTBC.h */,
+				6080D5F11EA8A39E007A0BF8 /* BaseTBC.m */,
+				6080D5F21EA8A39E007A0BF8 /* BaseVC.h */,
+				6080D5F31EA8A39E007A0BF8 /* BaseVC.m */,
+				6080D5EC1EA8A39E007A0BF8 /* BaseScrollViewVC.h */,
+				6080D5ED1EA8A39E007A0BF8 /* BaseScrollViewVC.m */,
+				6080D5EE1EA8A39E007A0BF8 /* BaseTableViewVC.h */,
+				6080D5EF1EA8A39E007A0BF8 /* BaseTableViewVC.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		6080D5F41EA8A39E007A0BF8 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				6080D5F51EA8A39E007A0BF8 /* BaseModel.h */,
+				6080D5F71EA8A39E007A0BF8 /* BaseModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		6080D5F81EA8A39E007A0BF8 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				6080D5F91EA8A39E007A0BF8 /* BaseCollectionViewCellProtocol.h */,
+				6080D5FA1EA8A39E007A0BF8 /* BaseTableViewCellProtocol.h */,
+				6080D5FB1EA8A39E007A0BF8 /* BaseVCProtocol.h */,
+				6080D5FC1EA8A39E007A0BF8 /* BaseViewModelProtocol.h */,
+				6080D5FD1EA8A39E007A0BF8 /* BaseViewProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6080D5FE1EA8A39E007A0BF8 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				6080D5FF1EA8A39E007A0BF8 /* BaseCollectionViewCell.h */,
+				6080D6001EA8A39E007A0BF8 /* BaseCollectionViewCell.m */,
+				6080D6011EA8A39E007A0BF8 /* BaseTableViewCell.h */,
+				6080D6021EA8A39E007A0BF8 /* BaseTableViewCell.m */,
+				6080D6031EA8A39E007A0BF8 /* BaseView.h */,
+				6080D6041EA8A39E007A0BF8 /* BaseView.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		6080D6051EA8A39E007A0BF8 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				6080D6061EA8A39E007A0BF8 /* BaseScrollViewModel.h */,
+				6080D6071EA8A39E007A0BF8 /* BaseScrollViewModel.m */,
+				6080D6081EA8A39E007A0BF8 /* BaseTableViewModel.h */,
+				6080D6091EA8A39E007A0BF8 /* BaseTableViewModel.m */,
+				6080D60A1EA8A39E007A0BF8 /* BaseViewModel.h */,
+				6080D60B1EA8A39E007A0BF8 /* BaseViewModel.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		6080D60C1EA8A39E007A0BF8 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				6080D60D1EA8A39E007A0BF8 /* C */,
+				6080D6101EA8A39E007A0BF8 /* M */,
+				6080D6131EA8A39E007A0BF8 /* V */,
+				6080D6161EA8A39E007A0BF8 /* VM */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		6080D60D1EA8A39E007A0BF8 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				6080D60E1EA8A39E007A0BF8 /* SectionMVVM_VC.h */,
+				6080D60F1EA8A39E007A0BF8 /* SectionMVVM_VC.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		6080D6101EA8A39E007A0BF8 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				6080D6111EA8A39E007A0BF8 /* SectionMVVM_Model.h */,
+				6080D6121EA8A39E007A0BF8 /* SectionMVVM_Model.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		6080D6131EA8A39E007A0BF8 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				6080D6141EA8A39E007A0BF8 /* SectionMVVM_Cell.h */,
+				6080D6151EA8A39E007A0BF8 /* SectionMVVM_Cell.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		6080D6161EA8A39E007A0BF8 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				6080D6171EA8A39E007A0BF8 /* SectionMVVM_ViewModel.h */,
+				6080D6181EA8A39E007A0BF8 /* SectionMVVM_ViewModel.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		6080D62B1EA8A678007A0BF8 /* ZZNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				6080D62C1EA8A678007A0BF8 /* ZZRequestManager.h */,
+				6080D62D1EA8A678007A0BF8 /* ZZRequestManager.m */,
+				6080D62E1EA8A678007A0BF8 /* ZZRequestService.h */,
+				6080D62F1EA8A678007A0BF8 /* ZZRequestService.m */,
+			);
+			path = ZZNetwork;
+			sourceTree = "<group>";
+		};
+		65990BC4DD1E97DDD3820D6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55903C3B9C16ADD3E2156D68 /* Pods_RAC_MVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		803823B41D4BB1E83D73523C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E322FEF30D86700F620377D /* Pods-RAC+MVVM.debug.xcconfig */,
+				FDACC89028C212E7A996AFCA /* Pods-RAC+MVVM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6080D5CD1EA8963E007A0BF8 /* RAC+MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6080D5E51EA8963E007A0BF8 /* Build configuration list for PBXNativeTarget "RAC+MVVM" */;
+			buildPhases = (
+				13E7D6F47CB0C35CB2CF6CE5 /* [CP] Check Pods Manifest.lock */,
+				6080D5CA1EA8963E007A0BF8 /* Sources */,
+				6080D5CB1EA8963E007A0BF8 /* Frameworks */,
+				6080D5CC1EA8963E007A0BF8 /* Resources */,
+				133D81A43D4D71DDAD7B1CD7 /* [CP] Embed Pods Frameworks */,
+				1717657B76ADD68796E7CECC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RAC+MVVM";
+			productName = "RAC+MVVM";
+			productReference = 6080D5CE1EA8963E007A0BF8 /* RAC+MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6080D5C61EA8963E007A0BF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "赵哲";
+				TargetAttributes = {
+					6080D5CD1EA8963E007A0BF8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6080D5C91EA8963E007A0BF8 /* Build configuration list for PBXProject "RAC+MVVM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6080D5C51EA8963E007A0BF8;
+			productRefGroup = 6080D5CF1EA8963E007A0BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6080D5CD1EA8963E007A0BF8 /* RAC+MVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6080D5CC1EA8963E007A0BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6080D5E11EA8963E007A0BF8 /* LaunchScreen.storyboard in Resources */,
+				6080D5DE1EA8963E007A0BF8 /* Assets.xcassets in Resources */,
+				6080D5DC1EA8963E007A0BF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		133D81A43D4D71DDAD7B1CD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC+MVVM/Pods-RAC+MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13E7D6F47CB0C35CB2CF6CE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1717657B76ADD68796E7CECC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC+MVVM/Pods-RAC+MVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6080D5CA1EA8963E007A0BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6080D61F1EA8A39E007A0BF8 /* BaseModel.m in Sources */,
+				6080D6241EA8A39E007A0BF8 /* BaseTableViewModel.m in Sources */,
+				6080D5D61EA8963E007A0BF8 /* AppDelegate.m in Sources */,
+				6080D6251EA8A39E007A0BF8 /* BaseViewModel.m in Sources */,
+				6080D6211EA8A39E007A0BF8 /* BaseTableViewCell.m in Sources */,
+				6080D6311EA8A678007A0BF8 /* ZZRequestService.m in Sources */,
+				6080D6291EA8A39E007A0BF8 /* SectionMVVM_ViewModel.m in Sources */,
+				6080D6201EA8A39E007A0BF8 /* BaseCollectionViewCell.m in Sources */,
+				6080D5D31EA8963E007A0BF8 /* main.m in Sources */,
+				6080D6301EA8A678007A0BF8 /* ZZRequestManager.m in Sources */,
+				6080D61B1EA8A39E007A0BF8 /* BaseTableViewVC.m in Sources */,
+				6080D6191EA8A39E007A0BF8 /* BaseNC.m in Sources */,
+				6080D6271EA8A39E007A0BF8 /* SectionMVVM_Model.m in Sources */,
+				6080D61C1EA8A39E007A0BF8 /* BaseTBC.m in Sources */,
+				6080D61A1EA8A39E007A0BF8 /* BaseScrollViewVC.m in Sources */,
+				6080D61D1EA8A39E007A0BF8 /* BaseVC.m in Sources */,
+				6080D6231EA8A39E007A0BF8 /* BaseScrollViewModel.m in Sources */,
+				6080D6261EA8A39E007A0BF8 /* SectionMVVM_VC.m in Sources */,
+				6080D6221EA8A39E007A0BF8 /* BaseView.m in Sources */,
+				6080D6281EA8A39E007A0BF8 /* SectionMVVM_Cell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6080D5DA1EA8963E007A0BF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6080D5DB1EA8963E007A0BF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6080D5DF1EA8963E007A0BF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6080D5E01EA8963E007A0BF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6080D5E31EA8963E007A0BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6080D5E41EA8963E007A0BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6080D5E61EA8963E007A0BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E322FEF30D86700F620377D /* Pods-RAC+MVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RAC+MVVM/PrefixHeader.pch";
+				INFOPLIST_FILE = "RAC+MVVM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neiquan.demo.RAC-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6080D5E71EA8963E007A0BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDACC89028C212E7A996AFCA /* Pods-RAC+MVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RAC+MVVM/PrefixHeader.pch";
+				INFOPLIST_FILE = "RAC+MVVM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neiquan.demo.RAC-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6080D5C91EA8963E007A0BF8 /* Build configuration list for PBXProject "RAC+MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6080D5E31EA8963E007A0BF8 /* Debug */,
+				6080D5E41EA8963E007A0BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6080D5E51EA8963E007A0BF8 /* Build configuration list for PBXNativeTarget "RAC+MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6080D5E61EA8963E007A0BF8 /* Debug */,
+				6080D5E71EA8963E007A0BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6080D5C61EA8963E007A0BF8 /* Project object */;
+}
